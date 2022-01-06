@@ -1,0 +1,54 @@
+/*Use Arial font throughout app*/
+
+* {
+  font-family: 'Arial', cursive !important;
+}
+
+/*Colour hyperlinks*/
+a {
+  color: #ED7D3A;
+}
+
+a:hover {
+  color: #1E3888;
+}
+
+/*Colour of nav bar Title*/
+.navbar-default .navbar-brand{
+  color: white;
+}
+
+/*Colour of nav bar tabs when hovering and active*/
+.navbar-default .navbar-nav > .active > a, 
+                           .navbar-default .navbar-nav > .active > a:focus, 
+                           .navbar-default .navbar-nav > .active > a:hover {
+                                color: #ED7D3A;
+                            }
+
+/*Change appearance of checkboxes*/
+/*
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  /* Styling checkbox */
+  /*width: 15px;
+  height: 15px;
+  /*border: 1px solid black;*/
+  /*background-color: white;
+}*/
+
+input[type="checkbox"]:checked {
+  /*border: 1px solid black;*/
+  background-color: #ED7D3A;
+}
+
+input[type="checkbox"]:checked:after {
+  display: block;
+}
+
+input[type="checkbox"]:disabled:after {
+  border-color: black;
+}
+   
